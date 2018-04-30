@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">* Training * Hackathons * Consulting *</string>
+    <string name="training_hackathons_consulting">Training | Hackathons | Consulting</string>
+    <string name="address_1">701 Brazos Street</string>
+    <string name="address_2">Austin Texas 78701</string>
+    <string name="email">experimentalcivics@gmail.com</string>
+    <string name="website">experimentalcivics.io</string>
+    <string name="tag_1">We help people experiment</string>
+    <string name="tag_2">with their ideas</string>
 </resources>
