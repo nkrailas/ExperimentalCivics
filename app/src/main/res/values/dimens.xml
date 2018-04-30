@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="banner_text_size">20sp</dimen>
+    <dimen name="text_size">24sp</dimen>
+    <dimen name="logo_height">280dp</dimen>
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="banner_marginTop">8dp</dimen>
+    <dimen name="banner_marginBottom">16dp</dimen>
+    <dimen name="small_marginTop">4dp</dimen>
+    <dimen name="large_marginTop">26dp</dimen>
+</resources>

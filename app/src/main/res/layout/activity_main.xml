@@ -3,80 +3,82 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorAccent"
+    android:layout_marginHorizontal="@dimen/activity_margin"
+    android:layout_marginVertical="@dimen/activity_margin"
+    android:background="@color/white"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginBottom="@dimen/banner_marginBottom"
+        android:layout_marginTop="@dimen/banner_marginTop"
         android:fontFamily="sans-serif-smallcaps"
         android:gravity="center"
-        android:padding="16dp"
         android:text="@string/training_hackathons_consulting"
-        android:textColor="#2196F3"
-        android:textSize="20sp"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/banner_text_size"
         android:textStyle="bold" />
 
     <ImageView
+        android:layout_height="@dimen/logo_height"
         android:layout_width="match_parent"
-        android:layout_height="280dp"
+        android:contentDescription="@string/logo"
         android:scaleType="centerCrop"
         android:src="@drawable/ec_logo_large" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="@dimen/small_marginTop"
         android:fontFamily="sans-serif-smallcaps"
         android:gravity="center"
         android:text="@string/address_1"
-        android:textColor="#000000"
-        android:textSize="24sp" />
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="@dimen/small_marginTop"
         android:fontFamily="sans-serif-smallcaps"
         android:gravity="center"
         android:text="@string/address_2"
-        android:textColor="#000000"
-        android:textSize="24sp" />
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="26dp"
+        android:layout_marginTop="@dimen/large_marginTop"
         android:fontFamily="sans-serif"
         android:gravity="center"
         android:autoLink="email"
         android:text="@string/email"
-        android:textColorLink="#4CAF50"
-        android:textSize="20sp" />
+        android:textColorLink="@color/green_link"
+        android:textSize="@dimen/text_size" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="@dimen/small_marginTop"
         android:fontFamily="sans-serif"
         android:gravity="center"
         android:autoLink="web"
         android:text="@string/website"
-        android:textColorLink="#4CAF50"
-        android:textSize="20sp" />
+        android:textColorLink="@color/green_link"
+        android:textSize="@dimen/text_size" />
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_marginTop="36dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/large_marginTop"
         android:fontFamily="sans-serif-smallcaps"
         android:gravity="center"
         android:text="@string/tag_1"
-        android:textColor="#2196F3"
-        android:textSize="20sp"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/text_size"
         android:textStyle="bold" />
 
     <TextView
@@ -85,8 +87,8 @@
         android:fontFamily="sans-serif-smallcaps"
         android:gravity="center"
         android:text="@string/tag_2"
-        android:textColor="#2196F3"
-        android:textSize="20sp"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/text_size"
         android:textStyle="bold" />
 
 </LinearLayout>
