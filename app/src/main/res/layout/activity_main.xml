@@ -1,94 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginHorizontal="@dimen/activity_margin"
-    android:layout_marginVertical="@dimen/activity_margin"
-    android:background="@color/white"
-    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/banner_marginBottom"
-        android:layout_marginTop="@dimen/banner_marginTop"
-        android:fontFamily="sans-serif-smallcaps"
-        android:gravity="center"
-        android:text="@string/training_hackathons_consulting"
-        android:textColor="@color/blue"
-        android:textSize="@dimen/banner_text_size"
-        android:textStyle="bold" />
+        android:layout_marginHorizontal="@dimen/activity_margin"
+        android:layout_marginVertical="@dimen/activity_margin"
+        android:background="@color/white"
+        android:orientation="vertical">
 
-    <ImageView
-        android:layout_height="@dimen/logo_height"
-        android:layout_width="match_parent"
-        android:contentDescription="@string/logo"
-        android:scaleType="centerCrop"
-        android:src="@drawable/ec_logo_large" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/banner_marginBottom"
+            android:layout_marginTop="@dimen/banner_marginTop"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:text="@string/training_hackathons_consulting"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/banner_text_size"
+            android:textStyle="bold" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/small_marginTop"
-        android:fontFamily="sans-serif-smallcaps"
-        android:gravity="center"
-        android:text="@string/address_1"
-        android:textColor="@color/black"
-        android:textSize="@dimen/text_size" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/logo_height"
+            android:contentDescription="@string/logo"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ec_logo_large" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/small_marginTop"
-        android:fontFamily="sans-serif-smallcaps"
-        android:gravity="center"
-        android:text="@string/address_2"
-        android:textColor="@color/black"
-        android:textSize="@dimen/text_size" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_marginTop"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:text="@string/address_1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/large_marginTop"
-        android:fontFamily="sans-serif"
-        android:gravity="center"
-        android:autoLink="email"
-        android:text="@string/email"
-        android:textColorLink="@color/green_link"
-        android:textSize="@dimen/text_size" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_marginTop"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:text="@string/address_2"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/small_marginTop"
-        android:fontFamily="sans-serif"
-        android:gravity="center"
-        android:autoLink="web"
-        android:text="@string/website"
-        android:textColorLink="@color/green_link"
-        android:textSize="@dimen/text_size" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/large_marginTop"
+            android:autoLink="email"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/email"
+            android:textColorLink="@color/green_link"
+            android:textSize="@dimen/text_size" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/large_marginTop"
-        android:fontFamily="sans-serif-smallcaps"
-        android:gravity="center"
-        android:text="@string/tag_1"
-        android:textColor="@color/blue"
-        android:textSize="@dimen/text_size"
-        android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_marginTop"
+            android:autoLink="web"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/website"
+            android:textColorLink="@color/green_link"
+            android:textSize="@dimen/text_size" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-smallcaps"
-        android:gravity="center"
-        android:text="@string/tag_2"
-        android:textColor="@color/blue"
-        android:textSize="@dimen/text_size"
-        android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/large_marginTop"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:text="@string/tag_1"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold" />
 
-</LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:text="@string/tag_2"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>
